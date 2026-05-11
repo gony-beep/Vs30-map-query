@@ -1,0 +1,6 @@
+streamlit
+rasterio
+numpy
+scipy
+matplotlib
+widgets
