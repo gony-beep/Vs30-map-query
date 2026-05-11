@@ -41,7 +41,7 @@ if st.sidebar.button("Query Value"):
 
     # Plotting
     fig, ax = plt.subplots()
-    img = ax.imshow(flipped_data, extent=extent, origin='lower', cmap='terrain')
+    img = ax.imshow(flipped_data, extent=extent, origin='upper', cmap='terrain')
     plt.colorbar(img, ax=ax)
     ax.plot(x_input, y_input, 'ro', markersize=10, markeredgecolor='white')
     ax.set_aspect('equal')
